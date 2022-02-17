@@ -1,0 +1,16 @@
+ /*<table class="tabela-2">
+                <tr>
+                    <th>Pedidos</th>
+                
+                </tr>
+                <tr>
+                    <td>ex:3 produtos</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <td>total</td>
+                    <td>*valor*val</td>
+                    <td>Designer</td>
+                </tr>
+
+            </table>*/

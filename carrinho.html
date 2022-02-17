@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="loja_carrinho.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <header>
+            <nav class="cabecalho">
+                <a href="loja.html"><img  class="logo"src="imagens-desafio/logo.svg" alt=""></a>
+                <img class="moeda"src="imagens-desafio/Coin.svg" alt="">
+    
+            <div class="search-box">
+                <input type="text" class="search-txt">
+                    
+                <a href="#" class="search-botao">
+                    <img class="lupa" src="imagens-desafio/Search-icon.svg" alt="lupa">
+                </a>
+            </div>
+    
+                <a href="" class="pedidos">meus pedidos</a>
+    
+                <a href="" class="usuario">
+                    <img src="imagens-desafio/Profile-icon.svg" alt="">
+                </a>
+                <a href="#" class="carrinho" >
+                    <img src="imagens-desafio/Cart-icon.svg" alt="">
+                </a>
+            </nav>
+        </header>
+    </header>
+    <main>
+        <section >
+            <h2 class="h2">Carrinho</h2>
+            <div class="produtos-carrinho">
+                <table  class="tabela-1">
+                    <tr class="titulo-tr-table1">
+                        <th colspan="2">Produto</th>                        
+                        <th >Preço</th>
+                        <th >Quantidade</th>
+                        <th >Subtotal</th>
+                    </tr>
+                    <tr class="produto-tr-table1">
+                        <td>Produto1</td>
+                        <td>###</td>
+                        <td><img src="imagens-desafio/Coin.svg">#</td>
+                        <td>#</td>
+                        <td><img src="imagens-desafio/Coin.svg"> #</td>
+                    </tr>
+                    <tr class="produto-tr-table1">
+                        <td>Produto2</td>
+                        <td>###</td>
+                        <td><img src="imagens-desafio/Coin.svg">#</td>
+                        <td>#</td>
+                        <td><img src="imagens-desafio/Coin.svg"> #</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        
+        <section class="cep-finalizacao-pedido">
+
+            <div class="div-frete">
+                    <p>Frete e Prazo</p>
+                    
+                    <input type="number" class="inf-cep"placeholder="CEP">
+                    <button class="botao-busca-frete" ">OK</button>  <br>          
+                    <a href="https://buscacepinter.correios.com.br/app/endereco/index.php"  target="_blank" rel="noopener noreferrer" class="pesquisa-frete">Não sei o meu CEP</a>
+            </div>           
+            
+            <div class="posicionamento-pedido">
+                <p>Resulmo do pedido</p>
+                <table class="tabela-2">
+                    <tr class="quantidade-preco">
+                            <td>3 produtos</td>
+                            <td>90</td>
+                    </tr>
+                    <tr class="valor-total">
+                            <td>total</td>
+                            <td>*valor*</td>
+                    </tr>
+                </table>
+                <button class="botao-continuar">continuar</button>
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>
