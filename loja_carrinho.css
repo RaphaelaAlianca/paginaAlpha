@@ -1,41 +1,38 @@
 main{
+    width: 1920px;
     margin: 0;
 }
 body{
     background: #F7F7F7;
 }
-header{
-    background:#2B364A;
-    height: 90px;
-}
-.cabecalho{
+/* CABEÇALHO*/
+.cabecalho{  
     display: flex;
     justify-content:space-between;
     align-items: center;
+    background:#2B364A;
+    height: 90px;
 }
 .logo{
     width: 125.91px;
     height: 50px;
     margin-left: 60px;
-    margin-top: 21px;
-
 }
 .moeda{
-    margin-top: 23px;
     margin-left: 85px;
     width: 45px;
     height: 45px;
 }
 .search-box{
     margin-left: 222px;
-    margin-top:13px ;
+    width: 827px;
+    height: 50px;
     display: flex;
     border-radius: 6PX;
     background: #E8E8E9E5;
-    width: 827px;
-    height: 50px;
 }
 .search-txt{
+    font-size: 27px;
     background: none;
     border: none;
     Width: 762px;
@@ -50,12 +47,10 @@ header{
     color:#F1F5F2;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
-    top: 30px;
     margin-left: 86px;
     text-decoration: none;
 }
 .usuario{
-    margin-top: 21px;
     margin-left: 57px;
     width: 50px;
     height: 50px;
@@ -63,7 +58,6 @@ header{
 }
 .carrinho{
     margin-left: 57px;
-    margin-top: 21px;
     margin-right: 50px;
     width: 50px;
     height: 50px;
@@ -72,7 +66,6 @@ header{
 /*CATEGORIA*/
 
 .menu{
-    
     position: absolute;
     border-right: 1px solid #2B364A;
     width: 317px;
