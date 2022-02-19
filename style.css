@@ -1,0 +1,346 @@
+/*main{
+    width: 1920px;
+    margin: 0;
+}*/
+body{
+    width: 1920px;
+    margin: 0;
+    background: #F7F7F7;
+}
+main{
+    
+    margin: 0 auto;
+}
+/* CABEÇALHO*/
+.cabecalho{  
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background:#2B364A;
+    height: 90px;
+}
+.logo{
+    width: 125.91px;
+    height: 50px;
+    margin-left: 60px;
+}
+
+
+.moeda{
+    margin-left: 85px;
+    width: 45px;
+    height: 45px;
+}
+.carteira{
+    color: #E5E5E5;
+    font-size: 35px;
+    font-family:'Ropa Sans', sans-serif ;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 35px;
+}
+.search-box{
+    margin-left: 222px;
+    width: 827px;
+    height: 50px;
+    display: flex;
+    border-radius: 6PX;
+    background: #E8E8E9E5;
+}
+.search-txt{
+    font-size: 27px;
+    background: none;
+    border: none;
+    Width: 762px;
+    height: 48px;
+}
+.lupa{
+    width: 65px;
+    height: 50px;    
+}
+.pedidos{
+    color:#F1F5F2;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 86px;
+    text-decoration: none;
+}
+.usuario{
+    margin-left: 57px;
+    width: 50px;
+    height: 50px;
+
+}
+.carrinho{
+    margin-left: 57px;
+    margin-right: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+/*CATEGORIA*/
+
+.menu{
+    position: absolute;
+    border-right: 1px solid #2B364A;
+    width: 317px;
+    height: 870px;
+}
+.h2-menu{
+    margin-top: 67px;
+    margin-bottom: 20px;
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #2B364A;
+}
+.lista-produtos{
+    margin-bottom: 16px;
+    margin-left: 47px;  
+    font-family: 'Ropa Sans', sans-serif;
+    list-style-type: none
+}
+.lista-produtos a{
+    text-decoration: none;
+    color:#2B364A;
+    font-size: 23px;
+    
+
+}
+
+/* PRODUTOS*/
+
+.produtos-principal{
+    position: absolute;
+    margin-left: 317px;
+}
+.h2{                   /* AQUI ESTA INCLUSO O H2 DA LOJA E CARRINHO*/
+    text-align: center;
+    margin-top: 31px;
+    margin-bottom: 13px;
+    color: #2B364A;
+    font-size: 64px;
+    font-family:'Ropa Sans', sans-serif ;
+    
+
+}
+hr {
+    border: 0;
+    height: 1px;
+    width: 1596px;
+    background-image:linear-gradient(270deg, #2b364a00 0%, #2B364A 53.82%, #2b364a00 100%);
+}
+
+.list-produto{
+    border-top: 0,5px solid;
+    display: flex;
+    
+    
+}
+.produtos div{
+    margin: 34px 175px 50px 175px;
+    display:flex;
+    align-items: center;
+}
+
+.produtos li{
+    align-items: center;
+    width: 249px;
+    height: 317px;
+    margin-left: 32px;
+    margin-right: 32px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+    background: #ffffff;
+}
+.imagem-produto{
+    display: block;
+    margin: auto;
+    margin-top: 27px;
+}  
+.icons{
+    height: 18.79px;
+    width: 18.1px;
+    border: 2px solid #6AA292;
+    border-radius: 360px;
+    background: #66C1A7;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    margin-right: 17px;
+    padding:  4.69px 6.12px 8.22px 6.1px;
+}
+.produto-preco{
+    font-size:35px;
+    color:#353535;
+    font-style: italic;
+    font-family:'Ropa Sans', sans-serif ;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.produto-descricao{
+    font-family:'Ropa Sans', sans-serif ;
+    font-size: 18px;
+    font-style: italic;
+    color:#000000;
+    text-align: center;
+    margin: 0;
+}
+.incluir-compra{
+    width: 81px;
+    height: 33px;
+    margin: 15px 84px;
+    
+    background: #526281;
+    border: 1px solid #3A4967;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+.incluir-compra img{
+    width: 19px;
+    height: 18px;
+
+}
+/*CARRINHO*/
+
+.produtos-carrinho {
+    border: #000000 solid 1px;
+    display: flex;
+    margin: 22px 77px 0 53px;
+    padding-bottom: 44px;
+    border-radius: 43px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background:#F1F5F2 ;
+}
+.tabela-1{
+
+    width: 1048px;  
+    text-align:left;
+    margin-bottom: 50px;
+    
+}
+.tabela-1 th{
+    display: flex;
+    padding: 33px 0 22px 46px;
+    font-size: 27px;
+    font-family:'Ropa Sans', sans-serif ;
+    color:#2B364A;
+}
+.tabela-1 td{
+    height: 135px;
+    font-size: 27px;
+    color:#2B36aA;
+    font-family: 'Ropa Sans', sans-serif ;
+}
+.table-1-1{
+    width:743px;
+}
+.table-1-1  tr th{
+    padding: 33px 0 22px;
+    font-size: 27px;
+    font-family:'Ropa Sans', sans-serif ;
+    color:#2B364A;
+}
+.table-1-1 tr td {
+    height: 135px;
+}
+.table-1-1 img{
+    align-items: center;
+    padding-top: 42px;
+    padding-left: 60px;
+}
+
+/*PARTE 2*/
+.cep-finalizacao-pedido{
+    display: flex;
+    justify-content:space-between;
+}
+.div-frete{
+    margin: 37px auto 67px 53px;
+    width: 309px;
+    height: 188px;
+    padding: 24px 64px  53px;
+    background: #F1F5F2;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 43px ;
+    text-align: center;
+
+}
+
+.div-frete p{
+    font-size: 27px;
+    font-family:'Ropa Sans', sans-serif ;
+    color:#2B364A;
+
+}
+.inf-cep{
+    width: 126px;
+    height: 33px;
+    margin: 25px auto 10px;
+    background: #D5D6D9;
+    border-radius: 7px;
+}
+.botao-busca-frete{
+    color:#FFFFFF;
+    width: 40px;
+    height: 33px;
+    background: #5A677B;
+    border-radius: 7px;
+}
+.pesquisa-frete{
+    margin: 113px auto;
+    color: #007EC5;
+    font-size: 13px;
+    font-family:'Ropa Sans', sans-serif;
+}
+/*finalização do pedido com o valor*/
+.posicionamento-pedido{
+    
+    width: 309px;
+    height: 208px;
+    margin: 35px  67px  53px auto;
+    border: #000000 solid 1px;
+    box-shadow: 0px 4px 4px #00000040;
+    border-radius: 43px;
+    background:#F1F5F2 ;
+}
+.posicionamento-pedido p{
+    margin: 26px 55px 16px;
+    padding-left:0;
+    font-size: 27px;
+    font-family:'Ropa Sans', sans-serif ;
+    color:#2B364A;
+}
+.tabela-2{
+    margin: 0 29.5px;
+    height: 56px;
+}
+.tabela-2 td{ 
+    width: 100%;       
+}
+.quantidade-preco{
+    
+    font-size:18px ;
+    font-family:'Ropa Sans', sans-serif ;
+    color:#2B364A;
+    
+}
+.valor-total{
+    font-size:22px ;
+    font-family:'Ropa Sans', sans-serif ;
+    color:#2B364A;
+}
+.botao-continuar{
+    
+    margin: 11px 75.5px 31px;
+    width: 168px;
+    height: 33px;
+    background: #00B682;
+    border-radius: 7px;
+    font-size: 15px;
+    color: #F1F5F2;
+
+}
+
+/*

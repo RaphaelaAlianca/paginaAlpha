@@ -5,35 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="loja_carrinho.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <header>
         <header>
-            <nav class="cabecalho">
-                <a href="index.html"><img  class="logo"src="imagens-desafio/logo.svg" alt=""></a>
-                <img class="moeda"src="imagens-desafio/Coin.svg" alt="">
-                
-                <p class="carteira">200</p>
-            <div class="search-box">
-                <input type="text" class="search-txt">
+            <header>
+                <nav class="cabecalho">
+                <a href="index.html">  <img class="logo" src="./img/Logo.png" alt=""></a>
+                    <img class="moeda" src="./img/Coin.svg" alt="">
+                    <p class="carteira">200</p>
                     
-                <a href="#" class="search-botao">
-                    <img class="lupa" src="imagens-desafio/Search-icon.svg" alt="lupa">
-                </a>
-            </div>
-    
-                <a href="" class="pedidos">meus pedidos</a>
-    
-                <a href="" class="usuario">
-                    <img src="imagens-desafio/Profile-icon.svg" alt="">
-                </a>
-                <a href="#" class="carrinho" >
-                    <img src="imagens-desafio/Cart-icon.svg" alt="">
-                </a>
-            </nav>
+                <div class="search-box">
+                    <input type="text" class="search-txt">
+                        
+                    <a href="#" class="search-botao">
+                        <img class="lupa" src="./img/Search-icon.svg" alt="lupa">
+                    </a>
+                </div>
+        
+                    <a href="" class="pedidos">meus pedidos</a>
+        
+                    <a href="" class="usuario">
+                        <img src="./img/Profile-icon.svg" alt="">
+                    </a>
+                    <a href="carrinho.html" class="carrinho" >
+                        <img src="./img/Cart-icon.svg" alt="">
+                    </a>
+                </nav>
+            </header>
         </header>
     </header>
     <main>
@@ -41,26 +43,42 @@
             <h2 class="h2">Carrinho</h2>
             <div class="produtos-carrinho">
                 <table  class="tabela-1">
-                    <tr class="titulo-tr-table1">
+                    <tr>
                         <th colspan="2">Produto</th>                        
+                    </tr>
+                    <div>
+                        <tr">
+                            <td>
+                                <img src="./img/ret-caneca.svg" alt="">
+                            <td class="nome-produto">Caneca logo alpha <ed/tech></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="./img/ret-caderno.svg" alt="">
+                            </td>
+                            <td class="nome-produto">Caderno alpha <ed/tech></ed></td>
+                        </tr>
+                    </div>
+                </table>
+                <table class="table-1-1">
+                    <tr>
                         <th >Preço</th>
                         <th >Quantidade</th>
                         <th >Subtotal</th>
                     </tr>
-                    <tr class="produto-tr-table1">
-                        <th><img src="imagens-desafio/caneca.svg" height="70"width="70"></th>
-                        <td>Caneca logo alpha <ed/tech></td>
-                        <td><img src="imagens-desafio/icon-valor.svg" ></td>
-                        <td><img src="imagens-desafio/quant2.svg" alt=""></td>
-                        <td><img src="imagens-desafio/sub.svg"></td>
-                    </tr>
-                    <tr class="produto-tr-table1">
-                        <th><img src="imagens-desafio/caderno.svg" height="70"width="70"></th>
-                        <td>Caderno alpha <ed/tech></ed></td>
-                        <td><img src="imagens-desafio/icon-valor.svg"></td>                       
-                        <td><img src="imagens-desafio/quantidade1.svg" alt=""></td>
-                        <td><img src="imagens-desafio/subt.svg"></td>
-                    </tr>
+                    <div class="table-1-img">
+                        <tr>
+                            <td><img src="./img/icon-valor.svg" ></td>
+                            <td><img src="./img/quant2.svg" alt=""></td>
+                            <td><img src="./img/sub.svg"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./img/icon-valor.svg"></td>                       
+                            <td><img src="./img/quantidade1.svg" alt=""></td>
+                            <td><img src="./img/subt.svg"></td>
+                        </tr>
+                    </div>
                 </table>
             </div>
         </section>
@@ -80,11 +98,11 @@
                 <table class="tabela-2">
                     <tr class="quantidade-preco">
                             <td>3 produtos</td>
-                            <td>90</td>
+                            <td><img src="./img/icon-90.svg" alt=""></td>
                     </tr>
                     <tr class="valor-total">
                             <td>total</td>
-                            <td>*valor*</td>
+                            <td><img src="./img/icon-90-2.svg" alt=""></td>
                     </tr>
                 </table>
                 <button class="botao-continuar">continuar</button>
